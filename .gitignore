@@ -1,0 +1,6 @@
+/data
+/final_combined_parquet
+/result
+*.parquet
+*.csv
+*.jpeg
