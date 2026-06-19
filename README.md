@@ -5,13 +5,14 @@ Below, a description to setup and run this project is provided.
 ## Dataset Setup
 
 Download the following:
--   Original dataset from https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data
--   Newer version from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-specifically 2015 January, Yellow Taxi Trip Data (yellow_tripdata_2015-01.parquet)
--   Taxi Zone Lookup CSV file from NYC TLC website https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-    (direct download link: https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv)
+-   Original data set from [Kaggle NYC Yellow Taxi Trip Data](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
+-   Newer version from [NYC TLC website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+specifically 2015 January - Yellow Taxi Trip Data (yellow_tripdata_2015-01.parquet)
+-   Taxi Zone Lookup CSV file from [NYC TLC website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+    (or [direct download link](https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv))
 
-place all files under ./data
+place all files under ``./data/`` directory.
+
 Note that you can conduct the same procedure for other months available in the Kaggle dataset (2016 January, February, March).
 
 
