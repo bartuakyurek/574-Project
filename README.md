@@ -22,12 +22,18 @@ The source code is provided under separate jupyter notebook modules for convenie
 They produce required sampled and normalized data sets and then run clustering analysis.
 The order of running them is as follows:
 
-1 - merge_by_dask.ipynb | This module merges Kaggle data with NYC/TLC version to obtain ground truth
-2 - preprocess.ipynb | Conducts feature selection and extraction, and outlier removal
-3 - Sampling modules (can be run independent from each other, order does not matter)
-    3.1 - proportional_sampling.ipynb | Takes 500 samples from each Borough except Staten Island, and takes Staten Island fully (as it has too few samples)
-    3.2 - grid_sampling.ipynb | Uniformly samples by splitting geographical coordinates into 50x50 grid
-4 -  normalize.ipynb | Normalizes given dataset and saves it to be utilized in the next stage
-5 - projection_and_clustering.ipynb | Conducts main analysis we have covered during assignments and saves relevant figures
+    1 - merge_by_dask.ipynb | This module merges Kaggle data with NYC/TLC version to obtain ground truth
+
+    2 - preprocess.ipynb | Conducts feature selection and extraction, and outlier removal
+
+    3 - Sampling modules (can be run independent from each other, order does not matter)
+
+        3.1 - proportional_sampling.ipynb | Takes 500 samples from each Borough except Staten Island, and takes Staten Island fully (as it has too few samples)
+
+        3.2 - grid_sampling.ipynb | Uniformly samples by splitting geographical coordinates into 50x50 grid
+
+    4 -  normalize.ipynb | Normalizes given dataset and saves it to be utilized in the next stage
+
+    5 - projection_and_clustering.ipynb | Conducts main analysis we have covered during assignments and saves relevant figures
 
 Authors: Bartu Akyürek, Seral Buse Atak
