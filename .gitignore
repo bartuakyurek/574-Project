@@ -1,7 +1,11 @@
-/data
-/final_combined_parquet
 /result
-*.parquet
-*.csv
-*.jpeg
 /.ipynb_checkpoints
+/data/cleaned_partitions
+/data/combined_parquet
+/data/normalized_cleaned_partitions
+data/combined.csv
+data/taxi_zone_lookup.csv
+data/yellow_tripdata_2016-01.csv
+data/yellow_tripdata_2016-01.parquet
+data/yellow_tripdata_2016-02.csv
+data/yellow_tripdata_2016-03.csv
