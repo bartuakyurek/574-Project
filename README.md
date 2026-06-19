@@ -37,4 +37,6 @@ The order of running them is as follows:
 
     5 - projection_and_clustering.ipynb | Conducts main analysis we have covered during assignments and saves relevant figures
 
+NOTE: Sampled subsets as well as their normalized versions are provided. These can be directly run final notebook (except random sampling, for that stages 1,2, and 4 needs to be run).
+
 Authors: Bartu Akyürek, Seral Buse Atak
